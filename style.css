@@ -1,0 +1,31 @@
+.grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-areas: 
+    "header"
+    "img"
+    "content"
+    "footer"
+     ;
+}
+
+
+header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+.img {
+    grid-area: img;
+    background-color: blueviolet;
+}
+
+.content {
+    grid-area: content;
+    background-color: crimson;
+}
+
+footer {
+    grid-area: footer;
+    background-color: darkgreen;
+}
