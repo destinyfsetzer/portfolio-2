@@ -120,6 +120,8 @@ footer .a {
 }
 
 .top {
+  background-image: url(https://media.giphy.com/media/xUA7aOwHM0Z6OwuTq8/giphy.gif);
+  background-size: cover;
   margin: 0;
   position: relative;
   width: 100%;
@@ -137,6 +139,10 @@ footer .a {
   position: absolute;
   top: 10%;
   left: 0px;
+  color: #78342c;
+  font-size: 80px;
+  letter-spacing: 2px;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 @media (min-width: 900px) {
