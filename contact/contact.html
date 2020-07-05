@@ -8,6 +8,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
         integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="contact.css">
     <title>Contact</title>
@@ -45,14 +47,28 @@
         </nav>
     </header>
     <div class="content">
-        <h1>Contact Me</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti numquam reiciendis beatae repellat
-            distinctio nisi deserunt. Saepe possimus nobis vitae culpa magnam laudantium dolor iure, illo suscipit
-            iste tenetur, blanditiis quam accusantium nemo similique, animi illum qui. Sequi, accusantium
-            repellendus
-            provident fugiat nostrum nulla inventore libero laboriosam mollitia doloribus dolore. Nostrum aspernatur
-            dignissimos commodi? Atque adipisci quaerat perferendis placeat vitae!
-        </p>
+        <h1>
+            <span class="typing">Contact Me</span></h1>
+        <h2>If you have a project in mind, please complete the form below to send your enquiry.
+        </h2>
+        <div class="form">
+            <form action="/action_page.php">
+                <label for="fname">First Name*</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name*</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="lname">Email*</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+
+
+                <label for="subject">Message*</label>
+                <textarea id="subject" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
     <footer>
         <a href="https://github.com/destinyfsetzer"><i class="fab fa-github"></i></a>
