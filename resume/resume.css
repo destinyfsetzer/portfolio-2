@@ -9,7 +9,7 @@ Copper: #B17049
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 2fr 2fr 3fr 0.25fr;
+  grid-template-rows: 0.5fr 1fr 1fr 2fr 0.25fr;
   grid-template-areas:
     "header"
     "objective"
@@ -66,6 +66,12 @@ h2 {
 
 .skills-bar {
   grid-area: skills-bar;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.progress {
+  margin-bottom: 10px;
 }
 
 .experience {
@@ -130,13 +136,15 @@ footer .a {
   color: #8d9891;
 }
 
-.content {
+/* .content {
   border-radius: 5px;
   background-color: #f8f9fa;
   padding: 20px;
   text-align: left;
   margin: 20px 5% 30px 5%;
-}
+} */
+
+/* start of skills bar*/
 
 @media (min-width: 900px) {
   .grid-container {
