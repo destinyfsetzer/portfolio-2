@@ -9,11 +9,11 @@ Copper: #B17049
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 1fr 1fr 2fr 0.25fr;
+  grid-template-rows: 0.5fr 1fr 1fr 2r 0.25fr;
   grid-template-areas:
     "header"
     "objective"
-    "skills-bar"
+    "skills"
     "experience"
     "footer";
 }
@@ -23,6 +23,7 @@ body {
   margin: 0;
   height: 100%;
   box-sizing: border-box;
+  text-align: center;
 }
 
 h1 {
@@ -33,6 +34,11 @@ h1 {
 
 h2 {
   padding-bottom: 20px;
+}
+
+.title {
+  font-size: 40px;
+  margin-top: 30%;
 }
 
 .myHeader {
@@ -64,18 +70,8 @@ h2 {
   /* background-color: crimson; */
 }
 
-.skills-bar {
-  grid-area: skills-bar;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.progress {
-  margin-bottom: 10px;
-}
-
-.experience {
-  grid-area: experience;
+.skills {
+  grid-area: skills;
 }
 
 footer {
