@@ -17,10 +17,15 @@ Copper: #B17049
 }
 
 body {
-  font-family: "Crimson Text", serif;
+  font-family: "Tenor Sans", sans-serif;
   margin: 0;
   height: 100%;
   box-sizing: border-box;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
 }
 
 h1 {
@@ -170,13 +175,13 @@ footer .a {
   }
 
   .content {
-    margin: 20px 10% 20px 10%;
+    margin: 20px 5% 20px 5%;
   }
 }
 
 @media (min-width: 1200px) {
   .content {
-    margin: 10px 10% 10px 10%;
+    margin: 20px 5% 10px 5%;
   }
 
   footer {

@@ -18,7 +18,7 @@ Copper: #B17049
 }
 
 body {
-  font-family: "Crimson Text", serif;
+  font-family: "Tenor Sans", sans-serif;
   margin: 0;
   height: 100%;
 }
@@ -42,6 +42,11 @@ h1 {
   display: flex;
   align-content: center;
   /* background-color: blueviolet; */
+}
+
+.logo {
+  height: 50px;
+  width: auto;
 }
 
 .profile {

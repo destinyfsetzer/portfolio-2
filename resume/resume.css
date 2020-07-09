@@ -18,8 +18,13 @@ Copper: #B17049
     "footer footer";
 }
 
+.logo {
+  height: 50px;
+  width: auto;
+}
+
 body {
-  font-family: "Crimson Text", serif;
+  font-family: "Tenor Sans", sans-serif;
   margin: 0;
   height: 100%;
   box-sizing: border-box;
@@ -30,7 +35,7 @@ body {
 }
 
 h1 {
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   color: #b17049;
   text-align: center;
   font-size: 50px;
@@ -46,6 +51,7 @@ h2 {
 
 h3 {
   font-size: 20px;
+  font-family: "Tenor Sans", sans-serif;
 }
 
 h4 {
@@ -69,7 +75,7 @@ h4 {
 .div-one {
   grid-area: div-1;
   text-align: center;
-  background-color: white;
+  background-color: #f8f9fa;
   margin-right: 150px;
   margin-left: 150px;
   padding-top: 20px;
@@ -91,7 +97,7 @@ h1 {
   margin-left: 150px;
   padding-right: 30px;
   padding-left: 60px;
-  background-color: white;
+  background-color: #f8f9fa;
 }
 
 .div-three {
@@ -100,8 +106,8 @@ h1 {
   padding-left: 10%;
   padding-right: 10px;
   margin-right: 150px;
-  border-left: 2px solid #8d9891;
-  background-color: white;
+  border-left: 2px solid #d8beb3;
+  background-color: #f8f9fa;
 }
 
 .image {
@@ -145,7 +151,7 @@ button:focus {
   color: #78342c;
   font-size: 30px;
   letter-spacing: 2px;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   animation: fadein 2s;
   transition: opacity 2s ease-in;
 }
