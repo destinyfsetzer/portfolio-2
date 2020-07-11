@@ -41,7 +41,6 @@ h2 {
 
 .myHeader {
   grid-area: header;
-  /* background-color: aqua; */
 }
 
 .content {
@@ -49,19 +48,10 @@ h2 {
   margin-top: 20px;
 }
 
-/* .content {
-  border-radius: 5px;
-  background-color: #f8f9fa;
-  padding: 20px;
-  text-align: left;
-  margin: 20px 10% 30px 10%;
-} */
-
 footer {
   grid-area: footer;
   text-align: center;
   margin-top: 40px;
-  /* background-color: darkgreen; */
 }
 
 .gallery-wrap {
@@ -75,8 +65,7 @@ footer {
 }
 
 .item {
-  flex: 1;
-  /* height: 100%; */
+  flex: 2;
   background-position: center;
   background-size: cover;
   background-repeat: none;
@@ -84,23 +73,23 @@ footer {
 }
 
 .item:hover {
-  flex: 4;
+  flex: 8;
 }
 
 .item-1 {
-  background-image: url("./../images/photo-1455894127589-22f75500213a.jpeg");
+  background-image: url("./../images/Screen\ Shot\ 2020-07-11\ at\ 2.29.26\ PM.png");
 }
 
 .item-2 {
-  background-image: url("./../images/photo-1500051638674-ff996a0ec29e.jpeg");
+  background-image: url("./../images/Screen\ Shot\ 2020-07-11\ at\ 2.59.46\ PM.png");
 }
 
 .item-3 {
-  background-image: url("./../images/photo-1533907650686-70576141c030.jpeg");
+  background-image: url("./../images/Screen\ Shot\ 2020-07-11\ at\ 2.34.07\ PM.png");
 }
 
 .item-4 {
-  background-image: url("./../images/photo-1594038658121-219eda06322c.jpeg");
+  background-image: url("./../images/Screen\ Shot\ 2020-07-11\ at\ 2.38.51\ PM.png");
 }
 
 img {
@@ -186,5 +175,24 @@ footer .a {
 
   footer {
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .item {
+    flex: 1;
+  }
+
+  .item:hover {
+    flex: 8;
+  }
+
+  .gallery-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 75vh;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
