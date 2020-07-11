@@ -17,6 +17,12 @@ Copper: #B17049
     "footer";
 }
 
+#arrow {
+  font-size: 70px;
+  color: white;
+  opacity: 0.8;
+}
+
 body {
   font-family: "Tenor Sans", sans-serif;
   margin: 0;
