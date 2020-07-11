@@ -21,6 +21,9 @@ body {
   margin: 0;
   height: 100%;
   box-sizing: border-box;
+  background-image: url(./../images/fe364d1abae04c53efdcf51a95c34874.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {
@@ -162,6 +165,7 @@ input[type="submit"]:hover {
   padding: 20px;
   text-align: left;
   margin: 20px 10% 30px 10%;
+  opacity: 0.9;
 }
 
 @media (min-width: 900px) {
