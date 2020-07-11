@@ -37,6 +37,8 @@ h1 {
 h2 {
   text-align: center;
   padding-bottom: 20px;
+  color: #4a5a68;
+  letter-spacing: 5px;
 }
 
 .myHeader {
@@ -59,9 +61,9 @@ footer {
   display: flex;
   flex-direction: row;
   width: 90%;
-  height: 75vh;
-  margin-left: 5%;
+  height: 65vh;
   margin-right: 5%;
+  margin-left: 5%;
 }
 
 .item {
@@ -70,10 +72,13 @@ footer {
   background-size: cover;
   background-repeat: none;
   transition: flex 3s ease;
+  opacity: 0.7;
+  max-width: 100%;
 }
 
 .item:hover {
   flex: 8;
+  opacity: 1;
 }
 
 .item-1 {
@@ -162,13 +167,9 @@ footer .a {
   footer {
     margin-top: 25px;
   }
-
-  .content {
-    margin: 20px 5% 20px 5%;
-  }
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .content {
     margin: 20px 5% 10px 5%;
   }
@@ -176,7 +177,7 @@ footer .a {
   footer {
     margin-top: 30px;
   }
-}
+} */
 
 @media (max-width: 600px) {
   .item {
