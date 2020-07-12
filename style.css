@@ -70,6 +70,8 @@ footer {
   text-align: center;
 }
 
+/*nav animation*/
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -121,6 +123,7 @@ footer .a {
   color: #8d9891;
 }
 
+/*overlay gif*/
 .top {
   background-image: url(https://media.giphy.com/media/xUA7aOwHM0Z6OwuTq8/giphy.gif);
   background-size: cover;
@@ -149,6 +152,8 @@ h3 {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/*text on overlay*/
 
 .title {
   position: absolute;
