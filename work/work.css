@@ -72,7 +72,7 @@ footer {
   background-size: cover;
   background-repeat: none;
   transition: flex 3s ease;
-  opacity: 0.7;
+  opacity: 0.95;
   max-width: 100%;
 }
 
@@ -99,10 +99,39 @@ footer {
 
 img {
   display: block;
-  width: 32px;
+  width: 100%;
 }
 
-@keyframes fadein {
+.button {
+  /* visibility: hidden; */
+  /* -webkit-transform: rotate(-90deg);
+  transform-origin: bottom right; */
+  background-color: #78342c;
+  border-radius: 0px auto;
+  color: white;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+  opacity: 0.95;
+}
+
+.button:hover {
+  visibility: visible;
+  background-color: #d8beb3;
+  color: #78342c;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: #78342c;
+  text-decoration: none;
+}
+
+*/ @keyframes fadein {
   from {
     opacity: 0;
   }
@@ -126,10 +155,10 @@ button:focus {
 }
 
 .navbar-light .navbar-brand {
-  color: #78342c;
+  /* color: #78342c;
   font-size: 30px;
   letter-spacing: 2px;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Julius Sans One", sans-serif; */
   animation: fadein 2s;
   transition: opacity 2s ease-in;
 }
@@ -147,6 +176,7 @@ i {
 
 i:hover {
   color: #b17049;
+  font-size: 35px;
 }
 
 footer .a {
@@ -169,7 +199,7 @@ footer .a {
   }
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .content {
     margin: 20px 5% 10px 5%;
   }
@@ -177,7 +207,7 @@ footer .a {
   footer {
     margin-top: 30px;
   }
-} */
+}
 
 @media (max-width: 600px) {
   .item {
