@@ -8,14 +8,17 @@ Copper: #B17049
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 2fr 2fr 0.25fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 4fr 0.5fr;
   grid-template-areas:
-    "header header"
-    "div-1 div-1"
-    "div-2 div-3"
-    "div-2 div-3"
-    "footer footer";
+    "header"
+    "div-1"
+    "footer";
+}
+
+img {
+  max-width: 80%;
+  border-radius: 2%;
 }
 
 .logo {
@@ -29,7 +32,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   text-align: center;
-  background-image: url(./../images/fe364d1abae04c53efdcf51a95c34874.jpg);
+  /* background-image: url(./../images/fe364d1abae04c53efdcf51a95c34874.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -121,7 +124,7 @@ h1 {
 footer {
   grid-area: footer;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 
